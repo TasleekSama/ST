@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Services</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'st/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'st/assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'st/assets/css/templatemo-finance-business.css' %}">
+    <link rel="stylesheet" href="{% static 'st/assets/css/owl.css' %}">
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <!--
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Signal Telecoms</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'st:home_page_en' %}">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'st:contact_us_page_en' %}">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'st:company_profile_page_en' %}">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Our Services</h1>
+            <span>We are over 30 years of experience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="single-services">
+      <div class="container">
+        <div class="row" id="tabs">
+          <div class="col-md-4">
+            <ul>
+              <li><a href='#tabs-1'>DATACENTER <i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-2'>RADIO<i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-3'>Security Solutions <i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-4'>Marketing <i class="fa fa-angle-right"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <img src="{% static 'st/assets/images/dc.jpg' %}" alt="">
+                <h4>DATACENTER</h4>
+                <p>We deliver turnkey technologies that ensure the upkeep of your datacenter at maximum efficiency and performance 24/7
+
+                We understand that every business requires a different ICT environment, and we have the experience and capacity to build the perfect environment for you. From design to implementation, our data center Site Preparation technologies will lay the grounds for a flawless data center to house all your ICT equipment and data</P><br>
+                <h5>Power Technologies</h5>
+                <p>Ensuring a stable environment for your Datacenter is imperative for the safety and security of your ICT systems. As a certified power technology provider, we can help you manage and maintain power to your Datacenter to ensure no mishaps will happen at any time</p><br>
+                <h5>Cooling Technologies</h5>
+                <p>The cooling system is the backbone of your Datacenter, since the electrical power used is converted to heat that can ruin or affect your data and hardware. Our datacenter Cooling technologies implement InRoom and InRow technologies to provide high energy efficiencies and utmost reliability at lower operational costs</p><br>
+                <h5>Management Technologies</h5>
+                <p>Managing your datacenter infrastructure may seem like a challenging and tedious task. Through our Datacenter Management technologies, we can help you manage your datacenter with clear visibility and optimum reliability. Our systems and tools allow you to control costs related to running your datacenter while increasing its operational efficiency.</p><br>
+              </article>
+              <article id='tabs-2'>
+                <img src="{% static 'st/assets/images/r.jpg' %}" alt="">
+                <h4>RADIO</h4>
+                <p>Arabian communications has more than 25 years of experience in designing, manufacturing, and delivering critical communications solutions. We realize that each industry faces its own unique challenges, which is why we commit to a flexible approach to all our projects, and strive to produce the best solution for each organization we serve. Our solutions are designed to operate in the most demanding situations and environments with absolute reliability and connectivity, so you can work safely and efficiently.<br><br>
+
+                Arabian communications offers a range of conventional, trunked, analog and digital radio systems tailored to meet our customers' specific needs - whether you're a small organization with just a few staff or a large corporate needing wide-area communications across many employees and groups.<br><br>
+
+                When all-informed, open-channel communications is essential to your business. Our range includes small, single-site networks for confined area voice-only communications to larger, wider area networks with a variety of voice and data features.<br><br>
+
+                Arabian Communications radio systems are a simple, economical way for mobile radio users to keep in touch.<br><br>
+
+                1- Modular, high specification infrastructure<br>
+                2- Systems in place throughout the world<br>
+                3- Conventional sites can be linked for wider coverage<br>
+                4- Ideal when "all-informed" communications is essential<br>
+                5- Easy to upgrade<br>
+                6- Economical</p><br><br>
+              </article>
+              <article id='tabs-3'>
+                <img src="{% static 'st/assets/images/single_service_03.jpg' %}" alt="">
+                <h4>SECURITY SOLUTIONS</h4>
+                <p>We provide premium-quality, intelligent IP video systems and sets standards for innovative camera technologies and decentralized security solutions with the highest level of cybersecurity. The flexibility, built-in intelligence and unparalleled data security of the company’s solutions are appreciated in many industries. Such as industrial manufacturing, retail, logistics and healthcare. Remote viewing of camera is all about data transmission from the security camera to your phone or PC by using the P2P technology.</P><br>
+                <h5>Indoor Cameras</h5>
+                <p>The Details Make All The Difference. Discreet, multi-functional video security and information systems - excellent quality at highly affordable prices.</p><br>
+                <h5>Outdoor Cameras</h5>
+                <p>Robust, Durable And Multifunctional. Weatherproof Complete IP Video Systems For Everyone Who Wants More Than Just Standard Solutions</p><br>
+                <h5>Explosion Proof Cameras</h5>
+                <p>Providing the best solution to help safeguard your company's assets. We customize explosion proof solutions for Oil and gases.</p><br>
+                <h5>PTZ Cameras</h5>
+                <p>weatherproof, high-quality IP cameras are equipped with the latest standard functions of centralized video systems, such as integrated infrared lighting, automatic day/night switching with a mechanical IR blocking filter, Wide Dynamic Range and High Speed PTZ</p><br>
+                <h5>Solar wireless security camera</h5>
+                <p>Remote viewing of camera is all about data transmission from the security camera to your phone or PC by using the P2P technology. Powered by solar Power.</p><br>
+                <h5>Thermographic Cameras</h5>
+                <p>Fascinating, Effective, Affordable: High-Caliber Thermal Imaging Technology In A Modular Dual Camera System</p><br>
+              </article>
+              <article id='tabs-4'>
+                <img src="{% static 'st/assets/images/single_service_04.jpg' %}" alt="">
+                <h4>Marketing</h4>
+                <p>SigTech is a creative communication company that is also specialized in marketing, branding, and corporate events.</p><br>
+                <P>Our team of Saudi strategists, designers and industry thought leaders has an understanding of the philosophy nad culture of our clients, which provides us firsthand experience in grasping our clients' needs.</P><br><br>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="callback-form callback-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Request a <em>call back</em></h2>
+              <span>interdum nisl ac urna tempor mollis</span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="border-button">Send Message</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-partners owl-carousel">
+              <div class="partner-item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>Signal Telecoms</h4>
+            <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Useful Links</h4>
+            <ul class="menu-list">
+              <li><a href="#">Vivamus ut tellus mi</a></li>
+              <li><a href="#">Nulla nec cursus elit</a></li>
+              <li><a href="#">Vulputate sed nec</a></li>
+              <li><a href="#">Cursus augue hasellus</a></li>
+              <li><a href="#">Lacinia ac sapien</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Additional Pages</h4>
+            <ul class="menu-list">
+              <li><a href="#">How We Work</a></li>
+              <li><a href="#">Quick Support</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item last-item">
+            <h4>Contact Us</h4>
+            <div class="contact-form">
+              <form id="contact footer-contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2021 Signal Telecoms Co.
+            
+            - Develovper: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">Omar Alkhatib</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'st/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'st/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Additional Scripts -->
+    <script src="{% static 'st/assets/js/custom.js' %}"></script>
+    <script src="{% static 'st/assets/js/owl.js' %}"></script>
+    <script src="{% static 'st/assets/js/slick.js' %}"></script>
+    <script src="{% static 'st/assets/js/accordions.js' %}"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
